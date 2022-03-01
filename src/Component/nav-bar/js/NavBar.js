@@ -59,7 +59,7 @@ const NavBar = () =>{
         <div className ='nav-bar'  style={{top:navBarVisible ?'0':'-100px'}}>
             <div className='logo-button'>
                 <button>
-                <a href='http://localhost:3000/' target='_top'>
+                <a href='http://vuthinhcv.web.app' target='_top'>
                 <MainLogo className='logo'></MainLogo>
                 </a>
                 </button>
@@ -71,8 +71,8 @@ const NavBar = () =>{
                 <a href="#work" id="navButton2">
                     <span>02. </span> Work
                 </a>
-                <a href="#home" id="navButton3">
-                    <span>03. </span> Somethings
+                <a href="#contact" id="navButton3">
+                    <span>03. </span> Contact
                 </a>
                 <button className='resume-button' id="navButton4">
                     <a href="/cv.pdf" target='_blank'>
@@ -92,8 +92,8 @@ const NavBar = () =>{
                 <a href="#work">
                     <span>02.</span> Work
                 </a>
-                <a href="#home">
-                    <span>03.</span> Somethings
+                <a href="#contact">
+                    <span>03.</span> Contact
                 </a>
                 <a href="/cv.pdf" target='_blank'>
                     <span>04.</span> Resume

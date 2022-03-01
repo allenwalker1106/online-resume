@@ -36,7 +36,7 @@ const SideProject=()=>{
         <div className='side-project'>
             <h2>Other side project</h2>
             <div className='container' style={{maxHeight:(isExpanse?'fit-content':'350px')}}>
-                <ProjectCard name="Online Resume" type="Web App" technology="React FireBase " link="https://github.com/allenwalker1106/online-resume/tree/master"/>
+                <ProjectCard name="Online Resume" type="Web App" technology="React FireBase " link="https://github.com/allenwalker1106/online-resume"/>
                 <ProjectCard name="Online Exam" type="Web App" technology="JQuery Ejs Boostrap Mongodb" link="https://github.com/allenwalker1106/OnlineExam"/>
                 <ProjectCard name="Robot Maze" type="Application" technology="C++ SDL C++ WINAPI Code::Block Mingw-setup" link="https://github.com/coldblood101/robot-maze"/>
                 <ProjectCard name="Hero Rescue" type="Game" technology="C++ SDL C++ Visual studio Community edition" link="https://github.com/coldblood101/Hero-Rescue"/>

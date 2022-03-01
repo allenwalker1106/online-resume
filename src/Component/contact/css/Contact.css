@@ -24,6 +24,7 @@
 
 .contact-container{
     width: 50%;
+    overflow: visible;
 }
 
 .contact-container>p{
@@ -32,6 +33,7 @@
 }
 
 .contact-container>a{
+    display: block;
     font-size: xx-large;
     border: 1px;
     
