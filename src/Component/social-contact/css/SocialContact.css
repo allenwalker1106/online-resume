@@ -1,0 +1,52 @@
+@keyframes slideUp {
+    0% {
+      transform: translateY(200%);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+
+.social-contact{
+    display: flex;
+    left:0;
+    width:10vw;
+    height:100vh;
+    position:fixed;
+    font-size: 15px;
+    color: whitesmoke;
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    align-items: center;
+    padding-top:100px;
+    cursor:pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 1.5s ease-out 0s 1 slideUp;
+}
+
+
+
+.social-logo{
+    fill: whitesmoke;
+    width:25px;
+    height: 25px;
+    margin: 5px;
+    border:1px;
+    border-style: solid;
+    border-radius: 15%;
+    border-color: whitesmoke;
+    
+}
+
+.social-logo:hover{
+    border-color: rgb(142, 211, 178);
+    fill: rgb(142, 211, 178);
+}
+
+.move-up:hover{
+  margin-bottom: 15px;
+}

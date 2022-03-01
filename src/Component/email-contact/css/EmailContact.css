@@ -1,0 +1,37 @@
+@keyframes slideUp {
+    0% {
+      transform: translateY(200%);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+
+.email-contact{
+    display: flex;
+    width:10vw;
+    height:100vh;
+    position:fixed;
+    font-size: 15px;
+    color: whitesmoke;
+    writing-mode: vertical-lr;
+    align-items: center;
+    padding-top:100px;
+    cursor:pointer;
+    white-space: nowrap;
+    right:0;
+    animation: 1.5s ease-out 0s 1 slideUp;
+
+}
+
+.email-contact>a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.email-contact>a:hover{
+    color:rgb(142, 211, 178);
+}

@@ -1,0 +1,27 @@
+.App {
+  background-color: rgb(10, 16, 16);
+}
+
+h1{
+  color: rgb(46, 196, 123);
+  font-size:xx-large;
+}
+
+
+h2{
+  color: rgb(142, 211, 178);
+  font-size: x-large;
+}
+
+h3{
+  font-size: larger;
+}
+
+span{
+  color:rgb(142, 211, 178);
+
+}
+
+html {
+  scroll-behavior: smooth;
+}

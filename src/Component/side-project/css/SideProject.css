@@ -1,0 +1,95 @@
+@keyframes hoverUp{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+
+.side-project{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 0vh 20vh 0vh;
+    border-style: solid;
+    width: 100%;
+    border-width:   0px 0px 1px 0px;
+    animation: 3s ease-out 0s 1 slideUp;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.side-project>.container{
+    width: 80%;
+    max-height: 350px;
+    overflow: hidden;
+}
+
+.project-card{
+    display:inline-flex;
+    align-self: center;
+    width: 180px;
+    height: 230px;
+    box-shadow: rgba(39, 59, 50,0.25) 0px 54px 55px, rgba(39, 59, 50,0.12) 0px -12px 30px, rgba(39, 59, 50,0.12) 0px 4px 6px, rgba(39, 59, 50,0.17) 0px 12px 13px, rgba(39, 59, 50,0.09) 0px -3px 5px;
+    background-color: rgb(67, 102, 85,0.5);
+    margin: 12px;
+}
+
+.side-project>button{
+    width: 60%;
+    font-size: xx-large;
+    background-color: rgba(23, 34, 29, 0.3);
+    border:none;
+}
+
+.side-project>button:hover{
+    background-color:rgba(23, 34, 29, 1);
+}
+
+.project-card:hover{
+    background-color: rgba(67, 102, 85,1);
+    animation: 0.5s ease-out 0s 1 hoverUp;
+    animation-fill-mode: forwards;
+}
+
+.project-card{
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.project-card>p{
+    text-align: left;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.project-card>.type{
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(142, 211, 178);
+}
+
+.project-card>.tech{
+    color: grey;
+    word-spacing: 5px;
+}
+
+.card-header{
+    display: inline-flex;
+    text-align: left;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-header>.project-name{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.card-header>a{
+    padding-top: 15px;
+}

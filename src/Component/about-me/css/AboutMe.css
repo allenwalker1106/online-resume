@@ -1,0 +1,119 @@
+@keyframes slideUp{
+    0%{
+        opacity: 0;
+        transform: translateY(150%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes reveal{
+    0%{
+        transform: translateX(0%);
+        z-index: 1;
+    }
+    50%{
+        transform: translateX(80%);
+        z-index: 1;
+    }
+    100%{
+        transform: translateX(0%);
+        z-index: 5;
+    }
+}
+
+@keyframes un_reveal{
+    100%{
+        transform: translateX(0%);
+        z-index: 5;
+    }
+    50%{
+        transform: translateX(80%);
+        z-index: 5;
+    }
+    0%{
+        transform: translateX(0%);
+        z-index: 1;
+    }
+}
+
+
+.about-me{
+    padding: 5vh 0vh 20vh 0vh;
+    border-style: solid;
+    /* margin: 5vw; */
+    border-width:   0px 0px 1px 0px;
+    animation: 2s ease-out 0s 1 slideUp;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(142, 211, 178);
+}
+
+.profile-container{
+    width:100%;
+    display: flex;
+}
+
+a:hover{
+    color: rgb(178, 216, 198);
+
+}
+
+.text-content{
+    padding-right: 5px; 
+    min-height:50vh;
+}  
+
+.pic-container{
+    position:relative;
+    min-height:400px;
+    /* background-color: rgba(142, 211, 178,0.1); */
+    border-radius: 5%;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: rgba(142, 211, 178);
+    
+}
+
+.profile1{
+    position:absolute;
+    top:10%;
+    left:10%;
+    width:60%;
+    z-index:4;
+}
+
+
+.profile1>img{
+    max-width: 200px;
+    width:100%;
+    z-index: inherit;
+}
+
+.profile2{
+    position:absolute;
+    top:20%;
+    left:20%;
+    width:60%;
+    z-index: 1;
+    animation: un_reveal 1s both;
+    animation-direction: reverse;  
+
+}
+
+.profile2:hover{
+    animation: reveal 1s both;
+}
+
+
+.profile2>img{
+    max-width: 200px;
+    z-index: inherit;
+    width:100%;
+}
+
+
