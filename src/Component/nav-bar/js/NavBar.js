@@ -71,7 +71,7 @@ const NavBar = () =>{
                 <a href="#work" id="navButton2">
                     <span>02. </span> Work
                 </a>
-                <a href="#contact" id="navButton3">
+                <a href="#Contact" id="navButton3">
                     <span>03. </span> Contact
                 </a>
                 <button className='resume-button' id="navButton4">
@@ -92,7 +92,7 @@ const NavBar = () =>{
                 <a href="#work">
                     <span>02.</span> Work
                 </a>
-                <a href="#contact">
+                <a href="#Contact">
                     <span>03.</span> Contact
                 </a>
                 <a href="/cv.pdf" target='_blank'>
